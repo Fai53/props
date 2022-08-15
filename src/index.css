@@ -1,0 +1,38 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav{
+  background-color: aqua;
+  text-align: center;
+  display:block;
+  color: white;
+  padding: 20px 0px;
+}
+
+.todo{
+  margin: 10px;
+  width: 300px;
+  height: 100px;
+  padding: 20px 20px;
+ background-color: #55488d;
+ }
+
+ .todo:hover{
+  border: 2px;
+  height: 120px;
+  width: 310px;
+  background-color: aliceblue;
+  color: #55488d;
+ }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
